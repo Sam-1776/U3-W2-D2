@@ -8,6 +8,7 @@ import { ActivePostComponent } from './components/active-post/active-post.compon
 import { InactivePostComponent } from './components/inactive-post/inactive-post.component';
 import { NavComponent } from './components/nav/nav.component';
 import { PageAComponent } from './components/page-a/page-a.component';
+import { PageIComponent } from './components/page-i/page-i.component';
 
 
 const routes: Route[] = [
@@ -31,7 +32,8 @@ const routes: Route[] = [
     ActivePostComponent,
     InactivePostComponent,
     NavComponent,
-    PageAComponent
+    PageAComponent,
+    PageIComponent
   ],
   imports: [
     BrowserModule,
